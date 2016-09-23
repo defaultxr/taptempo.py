@@ -37,7 +37,7 @@ def averagetimes(times):
 
 
 def main():
-    print('Tap a key on each beat. Press q to quit.')
+    print('Tap a key on each beat. Press q to quit.', end='\r')
 
     times = []
     while True:
@@ -54,7 +54,7 @@ def main():
                 del times[0]
             (averagetime, bpm) = averagetimes(times)
 
-            print("\nDetected BPM: %0.3f (Avg time between each: %0.3fs)"
+            print("\rDetected BPM: %0.3f (Avg time between each: %0.3fs)"
                   % (bpm, averagetime), end='')
 
 

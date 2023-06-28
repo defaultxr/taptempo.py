@@ -54,7 +54,7 @@ def main():
                 del times[0]
             (averagetime, bpm) = averagetimes(times)
 
-            print("\rDetected BPM: %0.3f (Avg time between each: %0.3fs)"
+            print("\rDetected BPM: %7.3f (Avg time between each: %0.3fs)"
                   % (bpm, averagetime), end='')
 
 

@@ -1,0 +1,7 @@
+#+TITLE: taptempo.py
+#+DATE: <2026-02-17 Tue 22:27>
+#+DESCRIPTION: Measure tempo in your terminal by tapping a key.
+
+~taptempo.py~ is as described: a simple terminal utility to measure out the tempo of repeated keypresses. Start the program, tap a key to the beat of a song, and it will tell you the approximate BPM and the average time between each keypress.
+
+Alas, not even this script is safe from [[https://github.com/defaultxr/taptempo][rewrite it in Rust]]. The Rust version is better, though, because it includes more information in its output, colors, and more documentation.
